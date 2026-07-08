@@ -1,0 +1,371 @@
+{
+  "overall": {
+    "on_time_pct": 66.0,
+    "avg_delivery_min": 124.9,
+    "total": 43443
+  },
+  "routes": [
+    {
+      "Route_ID": "Urban | Evening",
+      "deliveries": 3650,
+      "avg_delivery_min": 122.2,
+      "avg_distance_km": 11.32,
+      "avg_speed_kmh": 7.43,
+      "on_time_pct": 49.1
+    },
+    {
+      "Route_ID": "Other | Evening",
+      "deliveries": 395,
+      "avg_delivery_min": 115.7,
+      "avg_distance_km": 11.06,
+      "avg_speed_kmh": 7.53,
+      "on_time_pct": 52.7
+    },
+    {
+      "Route_ID": "Other | Midday",
+      "deliveries": 124,
+      "avg_delivery_min": 108.0,
+      "avg_distance_km": 4.68,
+      "avg_speed_kmh": 4.19,
+      "on_time_pct": 53.2
+    },
+    {
+      "Route_ID": "Metropolitian | Evening",
+      "deliveries": 14277,
+      "avg_delivery_min": 141.7,
+      "avg_distance_km": 11.89,
+      "avg_speed_kmh": 6.38,
+      "on_time_pct": 55.0
+    },
+    {
+      "Route_ID": "Urban | Midday",
+      "deliveries": 1182,
+      "avg_delivery_min": 109.8,
+      "avg_distance_km": 4.55,
+      "avg_speed_kmh": 3.38,
+      "on_time_pct": 58.5
+    },
+    {
+      "Route_ID": "Urban | Night",
+      "deliveries": 3192,
+      "avg_delivery_min": 107.2,
+      "avg_distance_km": 11.76,
+      "avg_speed_kmh": 8.63,
+      "on_time_pct": 66.8
+    },
+    {
+      "Route_ID": "Other | Night",
+      "deliveries": 439,
+      "avg_delivery_min": 100.3,
+      "avg_distance_km": 11.58,
+      "avg_speed_kmh": 9.0,
+      "on_time_pct": 67.7
+    },
+    {
+      "Route_ID": "Metropolitian | Midday",
+      "deliveries": 3929,
+      "avg_delivery_min": 129.6,
+      "avg_distance_km": 4.58,
+      "avg_speed_kmh": 2.77,
+      "on_time_pct": 68.2
+    },
+    {
+      "Route_ID": "Metropolitian | Night",
+      "deliveries": 10405,
+      "avg_delivery_min": 125.8,
+      "avg_distance_km": 12.09,
+      "avg_speed_kmh": 7.51,
+      "on_time_pct": 71.6
+    },
+    {
+      "Route_ID": "Other | Morning",
+      "deliveries": 174,
+      "avg_delivery_min": 87.4,
+      "avg_distance_km": 2.21,
+      "avg_speed_kmh": 2.01,
+      "on_time_pct": 80.5
+    },
+    {
+      "Route_ID": "Urban | Morning",
+      "deliveries": 1652,
+      "avg_delivery_min": 85.3,
+      "avg_distance_km": 2.26,
+      "avg_speed_kmh": 2.01,
+      "on_time_pct": 88.1
+    },
+    {
+      "Route_ID": "Metropolitian | Morning",
+      "deliveries": 3872,
+      "avg_delivery_min": 96.3,
+      "avg_distance_km": 2.31,
+      "avg_speed_kmh": 1.86,
+      "on_time_pct": 97.4
+    },
+    {
+      "Route_ID": "Semi-Urban | Evening",
+      "deliveries": 97,
+      "avg_delivery_min": 232.4,
+      "avg_distance_km": 13.87,
+      "avg_speed_kmh": 4.61,
+      "on_time_pct": 100.0
+    },
+    {
+      "Route_ID": "Semi-Urban | Midday",
+      "deliveries": 16,
+      "avg_delivery_min": 250.6,
+      "avg_distance_km": 4.99,
+      "avg_speed_kmh": 1.19,
+      "on_time_pct": 100.0
+    },
+    {
+      "Route_ID": "Semi-Urban | Night",
+      "deliveries": 39,
+      "avg_delivery_min": 249.0,
+      "avg_distance_km": 13.64,
+      "avg_speed_kmh": 3.29,
+      "on_time_pct": 100.0
+    }
+  ],
+  "vehicles": [
+    {
+      "Vehicle": "motorcycle",
+      "deliveries": 25394,
+      "avg_delivery_min": 131.0,
+      "on_time_pct": 62.0
+    },
+    {
+      "Vehicle": "scooter",
+      "deliveries": 14545,
+      "avg_delivery_min": 116.4,
+      "on_time_pct": 71.5
+    },
+    {
+      "Vehicle": "van",
+      "deliveries": 3504,
+      "avg_delivery_min": 116.2,
+      "on_time_pct": 72.0
+    }
+  ],
+  "areas": [
+    {
+      "Area": "Urban",
+      "deliveries": 9676,
+      "avg_delivery_min": 109.4,
+      "on_time_pct": 62.7
+    },
+    {
+      "Area": "Other",
+      "deliveries": 1132,
+      "avg_delivery_min": 104.5,
+      "on_time_pct": 62.8
+    },
+    {
+      "Area": "Metropolitian",
+      "deliveries": 32483,
+      "avg_delivery_min": 129.7,
+      "on_time_pct": 67.0
+    },
+    {
+      "Area": "Semi-Urban",
+      "deliveries": 152,
+      "avg_delivery_min": 238.6,
+      "on_time_pct": 100.0
+    }
+  ],
+  "windows": [
+    {
+      "Delivery_Window": "Evening",
+      "deliveries": 18419,
+      "avg_delivery_min": 137.8,
+      "on_time_pct": 54.0
+    },
+    {
+      "Delivery_Window": "Midday",
+      "deliveries": 5251,
+      "avg_delivery_min": 125.0,
+      "on_time_pct": 65.7
+    },
+    {
+      "Delivery_Window": "Night",
+      "deliveries": 14075,
+      "avg_delivery_min": 121.1,
+      "on_time_pct": 70.4
+    },
+    {
+      "Delivery_Window": "Morning",
+      "deliveries": 5698,
+      "avg_delivery_min": 92.9,
+      "on_time_pct": 94.2
+    }
+  ],
+  "trafficWeather": [
+    {
+      "Traffic": "Jam",
+      "Weather": "Fog",
+      "deliveries": 2359,
+      "avg_delivery_min": 174.2,
+      "on_time_pct": 21.6
+    },
+    {
+      "Traffic": "Jam",
+      "Weather": "Cloudy",
+      "deliveries": 2252,
+      "avg_delivery_min": 174.8,
+      "on_time_pct": 23.8
+    },
+    {
+      "Traffic": "Medium",
+      "Weather": "Cloudy",
+      "deliveries": 1776,
+      "avg_delivery_min": 136.7,
+      "on_time_pct": 48.4
+    },
+    {
+      "Traffic": "Jam",
+      "Weather": "Windy",
+      "deliveries": 2278,
+      "avg_delivery_min": 142.9,
+      "on_time_pct": 49.6
+    },
+    {
+      "Traffic": "Jam",
+      "Weather": "Sandstorms",
+      "deliveries": 2303,
+      "avg_delivery_min": 142.3,
+      "on_time_pct": 51.1
+    },
+    {
+      "Traffic": "Medium",
+      "Weather": "Fog",
+      "deliveries": 1794,
+      "avg_delivery_min": 132.3,
+      "on_time_pct": 51.1
+    },
+    {
+      "Traffic": "Jam",
+      "Weather": "Stormy",
+      "deliveries": 2251,
+      "avg_delivery_min": 142.3,
+      "on_time_pct": 51.8
+    },
+    {
+      "Traffic": "High",
+      "Weather": "Cloudy",
+      "deliveries": 713,
+      "avg_delivery_min": 138.9,
+      "on_time_pct": 55.0
+    },
+    {
+      "Traffic": "High",
+      "Weather": "Fog",
+      "deliveries": 752,
+      "avg_delivery_min": 134.8,
+      "on_time_pct": 57.4
+    },
+    {
+      "Traffic": "High",
+      "Weather": "Stormy",
+      "deliveries": 713,
+      "avg_delivery_min": 131.9,
+      "on_time_pct": 57.4
+    },
+    {
+      "Traffic": "High",
+      "Weather": "Sandstorms",
+      "deliveries": 674,
+      "avg_delivery_min": 131.9,
+      "on_time_pct": 58.2
+    },
+    {
+      "Traffic": "High",
+      "Weather": "Windy",
+      "deliveries": 713,
+      "avg_delivery_min": 128.9,
+      "on_time_pct": 60.6
+    },
+    {
+      "Traffic": "Medium",
+      "Weather": "Sandstorms",
+      "deliveries": 1724,
+      "avg_delivery_min": 132.8,
+      "on_time_pct": 61.2
+    },
+    {
+      "Traffic": "Medium",
+      "Weather": "Stormy",
+      "deliveries": 1775,
+      "avg_delivery_min": 131.9,
+      "on_time_pct": 62.3
+    },
+    {
+      "Traffic": "Medium",
+      "Weather": "Windy",
+      "deliveries": 1796,
+      "avg_delivery_min": 130.6,
+      "on_time_pct": 62.5
+    },
+    {
+      "Traffic": "Jam",
+      "Weather": "Sunny",
+      "deliveries": 2221,
+      "avg_delivery_min": 108.6,
+      "on_time_pct": 80.5
+    },
+    {
+      "Traffic": "Low",
+      "Weather": "Fog",
+      "deliveries": 2507,
+      "avg_delivery_min": 104.9,
+      "on_time_pct": 82.1
+    },
+    {
+      "Traffic": "Low",
+      "Weather": "Cloudy",
+      "deliveries": 2512,
+      "avg_delivery_min": 106.6,
+      "on_time_pct": 82.2
+    },
+    {
+      "Traffic": "High",
+      "Weather": "Sunny",
+      "deliveries": 712,
+      "avg_delivery_min": 109.9,
+      "on_time_pct": 83.4
+    },
+    {
+      "Traffic": "Low",
+      "Weather": "Sunny",
+      "deliveries": 2386,
+      "avg_delivery_min": 102.7,
+      "on_time_pct": 85.7
+    },
+    {
+      "Traffic": "Medium",
+      "Weather": "Sunny",
+      "deliveries": 1719,
+      "avg_delivery_min": 95.9,
+      "on_time_pct": 89.8
+    },
+    {
+      "Traffic": "Low",
+      "Weather": "Windy",
+      "deliveries": 2400,
+      "avg_delivery_min": 98.7,
+      "on_time_pct": 91.9
+    },
+    {
+      "Traffic": "Low",
+      "Weather": "Stormy",
+      "deliveries": 2605,
+      "avg_delivery_min": 98.6,
+      "on_time_pct": 92.6
+    },
+    {
+      "Traffic": "Low",
+      "Weather": "Sandstorms",
+      "deliveries": 2508,
+      "avg_delivery_min": 96.7,
+      "on_time_pct": 93.3
+    }
+  ]
+}

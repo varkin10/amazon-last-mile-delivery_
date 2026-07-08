@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #14171C;
+  --bg-alt: #191D24;
+  --card: #1B2027;
+  --card-border: #2A2F38;
+  --text: #ECEEF1;
+  --text-muted: #8B93A1;
+  --text-faint: #565D69;
+  --accent: #FF6B35;
+  --accent-dim: #FF6B3522;
+  --good: #34D399;
+  --good-dim: #34D39922;
+  --bad: #F4574A;
+  --bad-dim: #F4574A22;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(255,107,53,0.06), transparent 45%),
+    radial-gradient(circle at 85% 20%, rgba(52,211,153,0.04), transparent 40%);
+}
+
+::selection {
+  background: var(--accent);
+  color: #14171C;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
