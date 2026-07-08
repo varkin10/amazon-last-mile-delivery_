@@ -3,8 +3,8 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 
 export const metadata: Metadata = {
-  title: "Last-Mile Delivery Analytics — Route Performance Manifest",
-  description: "Route rebalancing and delivery performance analysis for last-mile logistics operations",
+  title: "Amazon Last-Mile Delivery Analytics — Route Performance Manifest",
+  description: "Route rebalancing and delivery performance analysis on 43,000+ real Amazon last-mile delivery records",
 };
 
 export default function RootLayout({
